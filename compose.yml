@@ -1,7 +1,7 @@
 services:
   web:
     build: .
-    container_name: web
+    container_name: djangotutorial
     command: gunicorn mysite.wsgi:application --bind 0.0.0.0:8000
     ports:
       - '8000:8000'
