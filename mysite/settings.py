@@ -29,7 +29,7 @@ DEBUG = bool(os.environ.get("DEBUG", default=0))
 
 # ALLOWED_HOSTS = []
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "127.0.0.1").split(",")
-CSRF_TRUSTED_ORIGINS = ["http://localhost:8080", "https://django.hotunix.com/"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost:8080", "https://django.hotunix.com"]
 
 
 # Application definition
